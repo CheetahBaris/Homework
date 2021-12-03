@@ -11,7 +11,8 @@ int main()
     std::cout << "Здравствуйте, введите слово  : " << std::endl;
     std::string a;
     std::cin >> a;
-    if (a.length() > 2) {
+    if (a.length() > 2)
+    {
         std::cout << " Последний символ : " << a[a.size() - 1]<<std::endl;
         std::cout << " Первый символ : " << a[a.size() - a.length() + 0] << std:: endl;
     }
